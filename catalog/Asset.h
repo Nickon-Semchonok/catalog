@@ -11,5 +11,5 @@ public:
     double getPricePerDay() const;
     Asset* setPricePerDay(double pricePerDay);
 
-    virtual std::string toString() const = 0; // Чисто віртуальний метод
+    virtual std::string toString() const = 0; 
 };
