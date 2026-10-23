@@ -5,6 +5,8 @@
 
 int main() {
 
+    setlocale(0, "");
+
     std::vector<Asset*> rentalCatalog;
 
     Car* car = new Car();
